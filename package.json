@@ -1,0 +1,34 @@
+{
+  "name": "dashboardjs",
+  "version": "0.1.0",
+  "description": "Node & Javascript based dashboard framework",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashboardjs/dashboardjs.git"
+  },
+  "keywords": [
+    "dashboard",
+    "dashboard.js",
+    "dashboardjs"
+  ],
+  "author": "Stuart Clark <stuart.clark@Jahingo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashboardjs/dashboardjs/issues"
+  },
+  "homepage": "https://dashboardjs.github.io/",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "mochawesome": "^1.3.5"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-sandbox": "^0.1.0",
+    "node-watch": "^0.3.5",
+    "socket.io": "^1.4.8"
+  }
+}
